@@ -1,4 +1,4 @@
-### Hi there 👋 I'm Patrizio Amella
+### Hi there 👋
 
 I :heart: creating stuff, programming, learning, reading and discussing ideas
 
