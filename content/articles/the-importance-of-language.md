@@ -27,6 +27,12 @@ This is some more info
   This is HTML inside markdown that has a class of note
 </div>
 
+<info-box>
+  <template #info-box>
+    This is a vue component inside markdown using slots
+  </template>
+</info-box>
+
 Our craft, as a programmer, is to build a bridge from the ideas and needs expressed with a human language to the formal instructions of a computer language.
 
 It is ok to not like the creator but to appreciate nonetheless his creation.
