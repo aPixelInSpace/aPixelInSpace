@@ -1,8 +1,12 @@
 ---
 title: My first Blog Post
 description: Learning how to use @nuxt/content to create a blog
-img: thought-catalog-mmWqrsjZ4Lw-unsplash.jpg
+img: thought-catalog.jpg
 alt: my first blog post
+author:
+  name: Patrizio
+  bio: All about Patrizio
+  image: https://is4-ssl.mzstatic.com/image/thumb/Purple71/v4/9b/38/6b/9b386b39-e150-6349-b54c-76897aa11dc2/source/512x512bb.jpg
 ---
 
 # Test
