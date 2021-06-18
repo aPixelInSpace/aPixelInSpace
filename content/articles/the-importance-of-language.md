@@ -42,4 +42,18 @@ Our craft, as a programmer, is to build a bridge from the ideas and needs expres
 It is ok to not like the creator but to appreciate nonetheless his creation.
 
 Photo by <a href="https://unsplash.com/@thoughtcatalog?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thought Catalog</a> on <a href="https://unsplash.com/s/photos/read?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+
+```fsharp
+let round (f : float) =
+    Math.Round(f, 2).ToString().Replace(",", ".")
+```
+
+```js[nuxt.config.js]
+export default {
+  nuxt: "is the best"
+}
+```
+
+```html[my-first-blog-post.md]
+<p>code styling is easy</p>
+```
