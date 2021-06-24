@@ -1,5 +1,7 @@
 <template>
   <article>
+    <AppSearchInput />
+
     <h1>{{ article.title }}</h1>
     <p>{{ article.description }}</p>
     <img class="img-header" :src="article.img" :alt="article.alt" />
