@@ -1,8 +1,8 @@
 ---
-title: My first Blog Post
+title: The importance of language
 description: Learning how to use @nuxt/content to create a blog
 img: thought-catalog.jpg
-alt: my first blog post
+alt: The importance of language
 author:
   name: Patrizio
   bio: All about Patrizio
