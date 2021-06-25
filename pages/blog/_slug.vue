@@ -1,35 +1,39 @@
 <template>
-  <article>
-    <AppSearchInput />
+  <v-app>
+    <article>
+      <AppSearchInput />
+      
+      <v-btn color="primary">Primary</v-btn>
 
-    <h1>{{ article.title }}</h1>
-    <p>{{ article.description }}</p>
-    <img class="img-header" :src="article.img" :alt="article.alt" />
-    <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
+      <h1>{{ article.title }}</h1>
+      <p>{{ article.description }}</p>
+      <img class="img-header" :src="article.img" :alt="article.alt" />
+      <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
 
-    Table des matières
-    <nav>
-      <ul>
-        <li v-for="link of article.toc" :key="link.id">
-          <NuxtLink
-            :class="{ 'py-2': link.depth === 2, 'ml-2 pb-2': link.depth === 3 }"
-            :to="`#${link.id}`"
-            >-> {{ link.text }}</NuxtLink
-          >
-        </li>
-      </ul>
-    </nav>
+      Table des matières
+      <nav>
+        <ul>
+          <li v-for="link of article.toc" :key="link.id">
+            <NuxtLink
+              :class="{ 'py-2': link.depth === 2, 'ml-2 pb-2': link.depth === 3 }"
+              :to="`#${link.id}`"
+              >-> {{ link.text }}</NuxtLink
+            >
+          </li>
+        </ul>
+      </nav>
 
-    <br v-for="n in 40" :key="n" />
+      <!-- <br v-for="n in 40" :key="n" /> -->
 
-    <nuxt-content :document="article" />
+      <nuxt-content :document="article" />
 
-    <br v-for="n in 40" :key="n" />
+      <!-- <br v-for="n in 40" :key="n" /> -->
 
-    <author :author="article.author"></author>
+      <author :author="article.author"></author>
 
-    <prev-next :prev="prev" :next="next" />
-  </article>
+      <prev-next :prev="prev" :next="next" />
+    </article>
+  </v-app>
 </template>
 
 <script>

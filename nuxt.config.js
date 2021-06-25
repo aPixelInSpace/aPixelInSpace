@@ -27,6 +27,25 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     '@nuxtjs/tailwindcss',
+    [
+      '@nuxtjs/vuetify',
+      {
+        optionsPath: '~/assets/scss/vuetify-options.js',
+        customVariables: ['~/assets/scss/vuetify-theme.scss'],
+        theme: {
+          dark: false,
+          themes: {
+            light: {
+              primary: '#fc5a03',
+              secondary: '#b0bec5',
+              accent: '#8c9eff',
+              error: '#b71c1c',
+            },
+          },
+        },
+        defaultAssets: false,
+        lang: { current: 'en' },
+    }],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
