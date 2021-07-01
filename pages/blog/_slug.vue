@@ -2,10 +2,18 @@
   <v-app>
     <article>
       <AppSearchInput />
-      
+
       <v-btn color="primary">Primary</v-btn>
 
-      <h1>{{ article.title }}</h1>
+      <h1>
+        <v-tooltip bottom>
+          <template #activator="{ on, attrs }">
+            <span v-bind="attrs" v-on="on">{{ article.title }}</span>
+          </template>
+          <span>Tooltip</span>
+        </v-tooltip>
+      </h1>
+
       <p>{{ article.description }}</p>
       <img class="img-header" :src="article.img" :alt="article.alt" />
       <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
