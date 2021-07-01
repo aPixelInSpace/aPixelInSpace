@@ -45,7 +45,8 @@ export default {
         },
         defaultAssets: false,
         lang: { current: 'en' },
-    }],
+      },
+    ],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

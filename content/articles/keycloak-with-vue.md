@@ -1,6 +1,6 @@
 ---
 title: Keycloak with Vue.js
-description: Use keycloak with Vue.js
+description: Nulla rhoncus nisl mi, eget iaculis est dapibus at. Suspendisse purus urna, faucibus ut lacinia quis, dapibus ac ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam in nisl vel velit faucibus dignissim at eget ligula. Maecenas non finibus arcu. Morbi sodales risus quis mi rutrum dictum. Donec sed congue nisi, ac euismod felis.
 img: keys.jpg
 imgShoutout: https://unsplash.com/photos/7BhTfoKsheQ?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink
 imgShoutoutName: Jason D
