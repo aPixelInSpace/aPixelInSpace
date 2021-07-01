@@ -55,6 +55,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://i18n.nuxtjs.org/
+    'nuxt-i18n',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -76,4 +78,24 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // i18n Configuration: https://i18n.nuxtjs.org/options-reference
+  i18n: {
+    locales: ['en', 'fr', 'es'],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: {
+          welcome: 'Welcome',
+        },
+        fr: {
+          welcome: 'Bienvenue',
+        },
+        es: {
+          welcome: 'Bienvenido',
+        },
+      },
+    },
+  },
 }

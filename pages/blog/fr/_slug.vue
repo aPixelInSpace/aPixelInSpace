@@ -1,6 +1,8 @@
 <template>
   <v-app>
     <article>
+      FR FR FR FR FR FR
+
       <!-- <AppSearchInput /> -->
 
       <!-- <v-btn color="primary">Primary</v-btn> -->
@@ -61,22 +63,22 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const article = await $content('articles', params.slug).fetch()
+    const article = await $content('articles/fr', params.slug).fetch()
 
-    const [prev, next] = await $content('articles')
+    const [prev, next] = await $content('articles/fr')
       .only(['title', 'slug'])
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
       .fetch()
 
-    const slugName = 'blog-slug'
+    const slugName = 'blog-fr-slug'
 
     return { article, prev, next, slugName }
   },
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      return new Date(date).toLocaleDateString('fr', options)
     },
   },
 }
