@@ -8588,10 +8588,10 @@ prism-themes@^1.7.0:
   resolved "https://registry.yarnpkg.com/prism-themes/-/prism-themes-1.7.0.tgz#487a5d16152cab515a298af3145345eafb7be372"
   integrity sha512-D5EsUQXOY4W9pcGwrOXFJiT22RRUuxWaaxyVNMGHRGr96h86K1XLLWMhzc3tXL0Qri7BhRE8mJtEN/ZZSNau6w==
 
-prismjs@^1.23.0, prismjs@^1.24.0:
-  version "1.24.0"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.24.0.tgz#0409c30068a6c52c89ef7f1089b3ca4de56be2ac"
-  integrity sha512-SqV5GRsNqnzCL8k5dfAjCNhUrF3pR0A9lTDSCUZeh/LIshheXJEaP0hwLz2t4XHivd2J/v2HR+gRnigzeKe3cQ==
+prismjs@^1.23.0, prismjs@^1.26.0:
+  version "1.26.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.26.0.tgz#16881b594828bb6b45296083a8cbab46b0accd47"
+  integrity sha512-HUoH9C5Z3jKkl3UunCyiD5jwk0+Hz0fIgQ2nbwU2Oo/ceuTAQAg+pPVnfdt2TJWRVLcxKh9iuoYDUSc8clb5UQ==
 
 process-nextick-args@~2.0.0:
   version "2.0.1"
